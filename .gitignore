@@ -1,0 +1,10 @@
+data/
+out/
+llm_cache/
+.claude/
+.vscode/
+configs/llm_config.json
+__pycache__/
+*.pyc
+.venv/
+.env

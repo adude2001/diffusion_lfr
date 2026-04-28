@@ -1,0 +1,14 @@
+训练src\train_traffic.py    python src/train_traffic.py --config ./configs/train_traffic.cfg
+
+推理 无llm  src\adv_scenario_gen.py 
+ $env:PYTHONPATH="D:\LRF-main\LRF-main"; $env:PYTHONUTF8=1; python src/adv_scenario_gen.py --config ./configs/adv_gen_rule_based.cfg
+diffusion  把 longterm 与 src.llm 的导入放进 try/except，并在缺失时自动回退默认权重流程
+python src/adv_scenario_gen.py --config configs/adv_gen_rule_based.cfg --ckpt ./out/train_traffic_out/checkpoints/latest_model.pth
+
+
+
+生成图片    src\viz_scenario_dir.py
+$env:PYTHONPATH="D:\LRF-main\LRF-main"; $env:PYTHONUTF8=1; python src/viz_scenario_dir.py --scenarios ./out/adv_gen_rule_based_out_1774855662/scenario_results/longtail_condition --viz_video
+
+评估场景   src\eval_adv_gen.py
+$env:PYTHONPATH="D:\LRF-main\LRF-main"; $env:PYTHONUTF8=1; python src/eval_planner.py --config ./configs/eval_planner.cfg --num_workers 0 --scenario_dir ./out/adv_gen_rule_based_out_1774855662/scenario_results/longtail_condition
