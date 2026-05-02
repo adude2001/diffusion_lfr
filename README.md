@@ -1,25 +1,8 @@
 
 <div align="center">
 
-# Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge
 
 
-
-[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2511.20726)
-[![Project Page](https://img.shields.io/badge/Project-Page-green)](https://yourname.github.io/project-page/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-<!-- Authors -->
-<br>
-
-**Yuhang Wang**<sup>1</sup>, 
-**Heye Huang**<sup>2,3*</sup>, 
-**Zhenhua Xu**<sup>4</sup>, <br>
-**Kailai Sun**<sup>2,3</sup>, 
-**Baoshen Guo**<sup>2,3</sup>, 
-**Jinhua Zhao**<sup>2,3</sup>
-
-<br>
 
 <!-- Affiliations -->
 *<sup>1</sup>University of Chinese Academy of Sciences, China* <br>
@@ -33,11 +16,7 @@
 
 </div>
 
-## 📖 Abstract
 
-This repository contains the official implementation of "Learning from Risk". We propose a novel framework that utilizes **Large Language Models (LLMs)** to guide the generation of safety-critical driving scenarios. By incorporating prior knowledge, our method generates more realistic and challenging scenarios compared to rule-based approaches.
-
----
 
 ## 🏗️ Qualitative Results
 
@@ -162,17 +141,7 @@ python src/adv_scenario_gen.py \
 - [ ] Releasing the code for generating highD scenarios.
 
 
-## 📄 Citation
 
-If you find this work useful in your research, please cite:
-
-```bibtex
-@inproceedings{wang2025learning,
-  title={Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge},
-  author={Wang, Yuhang and Huang, Heye and Xu, Zhenhua and Sun, Kailai and Guo, Baoshen and Zhao, Jinhua},
-  year={2025}
-}
-```
 
 ## 📝 License
 
