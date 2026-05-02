@@ -1,22 +1,4 @@
 
-<div align="center">
-
-
-
-
-<!-- Affiliations -->
-*<sup>1</sup>University of Chinese Academy of Sciences, China* <br>
-*<sup>2</sup>Singapore-MIT Alliance for Research and Technology Centre (SMART), Singapore* <br>
-*<sup>3</sup>Massachusetts Institute of Technology (MIT), USA* <br>
-*<sup>4</sup>Tsinghua University, China* <br>
-
-<br>
-
-<img src="Fig_1.png" width="100%" alt="LFR Framework"/>
-
-</div>
-
-
 
 ## 🏗️ Qualitative Results
 
